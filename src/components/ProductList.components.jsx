@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 
 const ProductListComponents = ({ data }) => {
   return (
-    <div className="p-4 bg-white border h-fit w-fit">
+    <div className="hover:shadow-2xl duration-300 p-4 bg-white border h-fit w-fit mx-auto">
       <div className="relative">
         <img src={data.img} />
         <h1 className="text-orange-600 text-lg absolute top-2 translate-x-[320%]">

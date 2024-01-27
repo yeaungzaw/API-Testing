@@ -13,7 +13,7 @@ const HomePage = () => {
         <h1>Loading...</h1>
       ) : (
         <>
-          <div className="grid grid-cols-4 gap-10 py-10 container mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 py-10 container mx-auto">
             {data.map((i) => (
               <Link key={i.id} to={`/detail/${i.id}`}>
                 <ProductListComponents data={i} />
